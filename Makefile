@@ -3,7 +3,7 @@ all: nx
 
 nx:  main.o game.o object.o ObjManager.o \
 	 map.o TextBox/TextBox.o TextBox/YesNoPrompt.o TextBox/ItemImage.o TextBox/StageSelect.o \
-	 TextBox/SaveSelect.o profile.o settings.o platform.o platform/Linux/vbesync.o \
+	 TextBox/SaveSelect.o profile.o settings.o platform.o \
 	 caret.o slope.o player.o playerstats.o p_arms.o \
 	 statusbar.o tsc.o screeneffect.o floattext.o input.o \
 	 replay.o trig.o inventory.o map_system.o debug.o \
@@ -33,7 +33,7 @@ nx:  main.o game.o object.o ObjManager.o \
 	g++ -o nx \
 	 main.o game.o object.o ObjManager.o \
 	 map.o TextBox/TextBox.o TextBox/YesNoPrompt.o TextBox/ItemImage.o TextBox/StageSelect.o \
-	 TextBox/SaveSelect.o profile.o settings.o platform.o platform/Linux/vbesync.o \
+	 TextBox/SaveSelect.o profile.o settings.o platform.o \
 	 caret.o slope.o player.o playerstats.o p_arms.o \
 	 statusbar.o tsc.o screeneffect.o floattext.o input.o \
 	 replay.o trig.o inventory.o map_system.o debug.o \
