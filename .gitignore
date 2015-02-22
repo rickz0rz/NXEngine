@@ -27,5 +27,13 @@
 *.out
 *.app
 
+# OS X stuff
+.DS_Store
+
+### NXEngine specific stuff
+
 # Debug files
 debug.txt
+
+# Executable
+nx
