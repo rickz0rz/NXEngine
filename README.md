@@ -3,9 +3,10 @@ A fork of NXEngine, originally located at [http://nxengine.sourceforge.net/](htt
 
 This fork is being setup to allow easy building on Mac OS X.  In order to build on a Mac, you'll need to do a few things:
 * Install [brew](https://github.com/Homebrew/homebrew).
-* Run the following commands:
+* Install the SDL dependencies, if you don't already have them:
  * `brew install sdl`
  * `brew install sdl_ttf`
+* Build NXEngine!
  * `make`
 
 Run the application like you normally would, via `./nx` -- follow the instructions on the NXEngine site for the initial run, and enjoy!
